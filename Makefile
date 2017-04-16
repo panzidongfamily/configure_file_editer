@@ -1,6 +1,6 @@
 #regtool-2.0 Makefile sukk@cloud-times.com
 
-CC=clang
+CC=gcc
 CFLAGS=-Wall -O3 `pkg-config --libs --cflags gtk+-2.0`
 SERVER=regtool_server
 CLIENT=regtool_client
